@@ -5,8 +5,6 @@ import useCustomHook from '../useCustomHook'
 const Blog = () => {
    
     const {data:blogs, isLoading, isError} = useCustomHook('https://my-json-server.typicode.com/hacidmind/foodDb/blogs')
-    // const { data: blogs, isLoading, isError } = useCustomHook('https://my-json-server.typicode.com/hacidmind/foodDb/blogs')
-
     return (
         <div>
             {blogs && <BlogList blogs={blogs}  />}

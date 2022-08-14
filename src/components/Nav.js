@@ -15,8 +15,6 @@ const Nav = () => {
                             <Link className="nav-link active" aria-current="page" to="/foodplug">Home</Link>
                             <Link className="nav-link" to="/newblog">New Blog</Link>
                             <Link className="nav-link" to="/food">Food</Link>
-                            <Link className="nav-link" to="/example">Example</Link>
-                            <Link className="nav-link" to="/cars">Cars</Link>
                         </div>
                     </div>
                 </div>

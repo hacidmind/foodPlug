@@ -10,7 +10,6 @@ const NewBlog = () => {
 
     let handleSubmit = (event) => {
         event.preventDefault();
-        // alert(`The name of the food is ${title}, it is from ${stateOfOrigin} content:${body}`)
         const blog = { title, stateOfOrigin, body };
         setIsLoading(true)
         // console.log(blog);
